@@ -1,4 +1,4 @@
-package es.unex.cum.mdp.sesion3;
+package es.unex.cum.mdp.sesion4;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -22,12 +22,11 @@ public class Desguace {
 	private Integer cont;
 	
 	private LinkedList<Proveedor>listaProveedores=new LinkedList();
-	//Set of pieces into stock.
+	//Set of pieces that it is not intp vehicles.
 	private TreeSet<Pieza>arbolPiezas=new TreeSet<Pieza>();
-
 	private ArrayList<Vehiculo>arrayVehiculos = new ArrayList<Vehiculo>();
-	
-	
+	//Map Empleado
+	private HashMap<Integer, Empleado>mapaEmpleado= new HashMap<Integer, Empleado>();
 	
 
 	/**
